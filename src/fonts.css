@@ -1,0 +1,104 @@
+.title-sm{
+    font-size: 2vw;
+    line-height: 4rem;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-weight: 300;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+}
+
+.title-name {
+    font-family: 'PT Serif', serif;
+    text-transform: uppercase;
+    font-size: 2.2vw;
+    font-weight: 500;
+    letter-spacing: 5px;
+    color: var(--green-light);
+    line-height: 4rem;
+}
+
+.title-xl {
+    font-family: 'PT Serif', serif;
+    font-size: 3.5vw;
+    letter-spacing: 4px;
+    font-weight: 300;
+    text-transform: uppercase;
+    
+}
+
+.title-md{
+    font-family: 'PT Serif', serif;
+    text-transform: uppercase;
+    font-size: 11vw;
+    line-height: 18rem;
+    letter-spacing: 5px;
+    font-weight: 300;
+}
+
+.section-article p {
+    text-align: justify;
+    padding-right: 10vw;
+    font-size: 1.8rem;
+    line-height: 3rem;
+    font-weight: 300;
+    color: var(--green-light);
+    
+}
+
+.title-planet {
+    font-family: 'PT Serif', serif;
+    font-size: 6vw;
+    text-transform: uppercase;
+    font-weight: 500;
+    letter-spacing: 5px;
+}
+
+.title-section {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 2vw;
+    line-height: 6rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: var(--while);
+    letter-spacing: 5px;
+    margin-bottom: auto;
+    margin-top: 25px;
+}
+
+.title-section b {
+    color: var(--green-light);
+    font-weight: 500;
+}
+
+@media (max-width: 768px){
+    .title-section{
+        font-size: 1.6rem;
+        line-height: 9rem;
+        text-align: center;
+        margin: 0 auto;
+    }
+    .title-sm{
+        font-size: 3.5vw;
+        font-weight: 600;
+    }
+    
+    .title-name, .title-xl {
+        text-align: center;
+    }
+
+    .destination.section-article article p,.section-article p {
+        font-size: 1.6rem;
+        padding: 0 ;
+        margin: 20px;
+        text-align: center;
+    }
+    
+}
+.home.section-graphic button{
+    font-family: 'PT Serif', serif;
+    text-transform: uppercase;
+    font-size: 3rem;
+    font-weight: 300;
+    letter-spacing:5px;
+    color: rgb(48, 48, 48);
+} 

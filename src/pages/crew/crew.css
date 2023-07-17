@@ -1,0 +1,76 @@
+.crew.title-section{
+    width: 90%;
+    height: 50px;
+    align-self: flex-end;
+}
+
+.crew.section-article{
+    padding-top:0 ;
+}
+
+.crew.section-article .title-section {
+    margin-bottom: 50px;
+    margin-top: 0;
+}
+
+.crew.section-article article p {
+    padding: 0;
+}
+.selecteds-persons{
+    width: 20%;
+    min-width: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.selecteds-persons label {
+    width: 15px;
+    height: 15px;
+    border-radius: 100%;
+    background-color: var(--green);
+    transition: 0.2s;
+}
+
+.selecteds-persons label input{
+    visibility: hidden;
+}
+
+.selecteds-persons .active{
+    transform: scale(1.2);
+    background-color: var(--while);
+    transition: 0.2s;
+}
+
+.crew.section-graphic {
+    margin: 0;
+}
+
+.crew.section-graphic img{
+    width: 50vw;
+    max-height: 560px;
+    object-fit: contain;
+    align-self: end;
+}
+
+@media(max-width:767px){
+    .crew.title-section{
+        text-align: center;
+        padding-bottom: 80px;
+    }
+    .selecteds-persons{
+        align-self: center;
+    }
+    .crew.section-article{
+        order: 2;
+    }
+    .crew.section-article article {
+        order: 2;
+    }
+    .selecteds-persons{
+        padding: 20px 0;
+        order: 1;
+    }
+    .crew.section-graphic img{
+        width: 250px;
+    }
+}
