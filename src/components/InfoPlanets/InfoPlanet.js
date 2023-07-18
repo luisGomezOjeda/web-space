@@ -17,7 +17,7 @@ export const InfoPlanet = ({ title, article, distanceKm, distanceTime }) => {
        </div>
        <div>
         <span>Est.travel time</span> <br/>
-        <b>{distanceTime}</b>
+        <b >{distanceTime}</b>
        </div>
     </article>
     </>

@@ -27,19 +27,19 @@ export const useInfo = () => {
         },
         {title : "mars",
         article : "Don’t forget to pack your hiking boots. You’ll need them to tackle Olympus Mons, the tallest planetary mountain in our solar system. It’s two and a half times the size of Everest!",
-        distanceKm : "225 mil. km",
+        distanceKm : "225 mil KM",
         distanceTime : "9 months",
         img : imgMars
         },
         {title : "europa",
         article : "The smallest of the four Galilean moons orbiting Jupiter, Europa is a winter lover’s dream. With an icy surface, it’s perfect for a bit of ice skating, curling, hockey, or simple relaxation in your snug wintery cabin.!",
-        distanceKm : "628 mil. km",
+        distanceKm : "628 mil KM",
         distanceTime : "3 years",
         img : imgEuropa
         },
         {title : "titan",
         article : "The only moon known to have a dense atmosphere other than Earth, Titan is a home away from home (just a few hundred degrees colder!). As a bonus, you get striking views of the Rings of Saturn.",
-        distanceKm : "1.6 mil. km",
+        distanceKm : "1.6 mil KM",
         distanceTime : "7 years",
         img : imgTitan
         }
