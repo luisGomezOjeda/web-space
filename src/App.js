@@ -21,7 +21,7 @@ const App = () => {
         <Routes>
           <Route path="/web-space/" element={<Home handleBg={handleBg} />} index/>
           <Route
-            path="web-space/destination"
+            path="/web-space/destination"
             element={<Destination handleBg={handleBg} />}
           />
           <Route path="/web-space/crew" element={<Crew handleBg={handleBg} />} />
