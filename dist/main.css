@@ -234,6 +234,7 @@
     justify-self: end;
     width: 34vw;
     object-fit: contain;
+    margin: 0;
 }
 
 
