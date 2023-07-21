@@ -279,7 +279,8 @@
     
     .tech.section-graphic img {
         justify-self: center;
-        width: 100%;
+        width: 70%;
+       min-width : 300px
     }
     .tech.section-article {
         flex-direction: column-reverse;
