@@ -228,13 +228,14 @@
 
 .tech.title-section{
     width: 100%;
+    margin: 0;
 }
 
 .tech.section-graphic img {
     justify-self: end;
     width: 34vw;
     object-fit: contain;
-    margin: 0;
+    
 }
 
 
@@ -267,7 +268,7 @@
 
 @media (max-width: 768px){
     .tech.section-article{
-        width: 100%;
+        width: 100%
     }
     .tech.section-article article {
         padding : 0;
@@ -278,7 +279,9 @@
     
     .tech.section-graphic img {
         justify-self: center;
-        width: 100%;
+        width: 80%;
+        min-whidth : 300px;
+        justify-self : Center;
     }
     .tech.section-article {
         flex-direction: column-reverse;

@@ -19,14 +19,14 @@ const App = () => {
       <Header />
       <main className="main-container">
         <Routes>
-          <Route path="/web-space/" element={<Home handleBg={handleBg} />} index/>
+          <Route path="/" element={<Home handleBg={handleBg} />} index/>
           <Route
-            path="/web-space/destination"
+            path="/destination"
             element={<Destination handleBg={handleBg} />}
           />
-          <Route path="/web-space/crew" element={<Crew handleBg={handleBg} />} />
+          <Route path="/crew" element={<Crew handleBg={handleBg} />} />
           <Route
-            path="/web-space/technology"
+            path="/technology"
             element={<Technology handleBg={handleBg} />}
           />
           <Route path="*" element={<h1>error 404</h1>} />

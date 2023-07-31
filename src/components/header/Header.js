@@ -24,10 +24,10 @@ const menu = useRef(null),
      <nav className="header--nav" ref={nav}>
       <img src={iconCloseMenu} className="header-nav--close" onClick={handdleMenu}/>
         <ul>
-            <li onClick={handdleMenu}><NavLink to="/web-space/">00 HOME</NavLink></li>
-            <li onClick={handdleMenu}><NavLink to="/web-space/destination">01 DESTINATION</NavLink></li>
-            <li onClick={handdleMenu}><NavLink to="/web-space/crew">02 CREW</NavLink></li>
-            <li onClick={handdleMenu}><NavLink to="/web-space/technology">03 TECHNOLOGY</NavLink></li>
+            <li onClick={handdleMenu}><NavLink to="/">00 HOME</NavLink></li>
+            <li onClick={handdleMenu}><NavLink to="/destination">01 DESTINATION</NavLink></li>
+            <li onClick={handdleMenu}><NavLink to="/crew">02 CREW</NavLink></li>
+            <li onClick={handdleMenu}><NavLink to="/technology">03 TECHNOLOGY</NavLink></li>
         </ul>
      </nav>
      <img className ="header--menu-responsive"src = {iconMenu} ref={menu} onClick={handdleMenu}/>
