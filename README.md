@@ -16,5 +16,5 @@ Este es un proyecto de página web desarrollado para brindar información emocio
 
 La página web "Viaje Espacial" está dedicada a proporcionar información fascinante sobre distintos destinos en el espacio exterior. Los visitantes podrán explorar detalles interesantes sobre la Luna, Marte, Europa y Titán, sumergiéndose en los misterios y belleza del cosmos. Además, podrán conocer a los valientes astronautas que han llevado a cabo asombrosas misiones en el espacio. También presentamos la avanzada tecnología que hace posible nuestro viaje interestelar.
 
-Puedes acceder al proyecto "Viaje Espacial" en la siguiente URL: [https://webdigitalspace.com.ar/](webdigitalspace)
+Puedes acceder al proyecto "Viaje Espacial" en la siguiente URL: https://webdigitalspace.com.ar/
 
