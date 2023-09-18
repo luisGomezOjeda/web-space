@@ -44,6 +44,7 @@
 .destination.section-graphic img{
     width: 30vw;
     min-width: 300px;
+    max-width: 600px;
 }
 
 .destination.section-article {  
@@ -455,7 +456,7 @@ html {
     --while : #fff;
 
     /* brackpoints */
-    --xxl: 1309px;
+    --xxl: 1609px;
     --xl : 977px;
     --md : 768px;
     --sm : 481px;

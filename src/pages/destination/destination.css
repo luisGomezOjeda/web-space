@@ -1,6 +1,7 @@
 .destination.section-graphic img{
     width: 30vw;
     min-width: 300px;
+    max-width: 600px;
 }
 
 .destination.section-article {  

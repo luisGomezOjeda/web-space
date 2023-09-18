@@ -240,6 +240,7 @@
 
 .tech.title-section{
     width: 100%;
+    margin: 0;
 }
 
 .tech.section-graphic img {
@@ -472,7 +473,7 @@ html {
     --while : #fff;
 
     /* brackpoints */
-    --xxl: 1309px;
+    --xxl: 109px;
     --xl : 977px;
     --md : 768px;
     --sm : 481px;
