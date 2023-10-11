@@ -456,8 +456,8 @@ html {
     --while : #fff;
 
     /* brackpoints */
-    --xxl: 1609px;
-    --xl : 977px;
+    --xxl: 1509px;
+    --xl : 907px;
     --md : 768px;
     --sm : 481px;
 }
@@ -571,7 +571,7 @@ body{
 .title-md{
     font-family: 'PT Serif', serif;
     text-transform: uppercase;
-    font-size: 11vw;
+    font-size:9.5vw;
     line-height: 18rem;
     letter-spacing: 5px;
     font-weight: 300;
