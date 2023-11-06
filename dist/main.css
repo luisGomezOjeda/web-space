@@ -5,7 +5,6 @@
    align-items: flex-start;
    padding: 0;
    margin-top: auto;
-   margin-bottom:200px ;
 }
 
 .home.section-article h4 b {
@@ -42,9 +41,10 @@
 
 
 .destination.section-graphic img{
-    width: 30vw;
+    width: 25vw;
     min-width: 300px;
-    max-width: 600px;
+    max-width: 550px;
+    padding-bottom: 0;
 }
 
 .destination.section-article {  
@@ -77,7 +77,7 @@
 }
 
 .selected--planet.selected {
-    padding: 10px 0;
+    
     border-bottom: 2px solid #fff;
  }
   
@@ -134,6 +134,7 @@
     }
 }
 
+
 .crew.title-section{
     width: 90%;
     height: 50px;
@@ -182,8 +183,8 @@
 }
 
 .crew.section-graphic img{
-    width: 50vw;
-    max-height: 560px;
+    width: 45vw;
+    max-height: 400px;
     object-fit: contain;
     align-self: end;
 }

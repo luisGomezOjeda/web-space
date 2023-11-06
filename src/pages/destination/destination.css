@@ -1,7 +1,8 @@
 .destination.section-graphic img{
-    width: 30vw;
+    width: 25vw;
     min-width: 300px;
-    max-width: 600px;
+    max-width: 550px;
+    padding-bottom: 0;
 }
 
 .destination.section-article {  
@@ -34,7 +35,7 @@
 }
 
 .selected--planet.selected {
-    padding: 10px 0;
+    
     border-bottom: 2px solid #fff;
  }
   
@@ -90,3 +91,4 @@
         font-size: 1.8rem;
     }
 }
+
